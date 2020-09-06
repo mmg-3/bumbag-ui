@@ -1,4 +1,5 @@
-import { css, cssClass } from '../styled';
+import { Box as ReakitBox } from 'reakit/Box';
+import { css, cssClass, tempV2_styled } from '../styled';
 import { altitude, theme } from '../utils/theme';
 
 const FLEX_HORIZONTAL_ALIGN_MAP = {
@@ -78,3 +79,17 @@ export function getAlignmentAttributes(styleProps) {
     `}
   `;
 }
+
+export const tempV2_Box = tempV2_styled(ReakitBox, {
+  margin: 'unset',
+  padding: 'unset',
+  border: 'unset',
+  background: 'unset',
+  font: 'unset',
+  fontFamily: 'inherit',
+  fontSize: '100%',
+  boxSizing: 'border-box',
+  ':focus:not(:focus-visible)': {
+    outline: 'none',
+  },
+});

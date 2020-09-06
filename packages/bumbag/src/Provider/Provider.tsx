@@ -3,7 +3,7 @@ import { Provider as ReakitProvider } from 'reakit';
 
 import { IdProvider } from '../utils/uniqueId';
 import { ThemeProvider as EmotionProvider } from '../styled';
-import buildTheme from '../theme';
+import { buildTheme } from '../theme';
 import { LayoutBreakpoint, ThemeConfig } from '../types';
 import { ToastProvider } from '../Toast';
 import { PageProvider } from '../Page/PageContext';

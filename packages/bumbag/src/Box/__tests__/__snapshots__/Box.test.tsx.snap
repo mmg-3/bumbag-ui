@@ -1,1722 +1,247 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`composition hook should return with box props 1`] = `
-Object {
-  "className": "css-63it0p css-jwhr8m bb-Box",
-}
-`;
-
-exports[`composition render props should render correctly 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-<p
-  class="emotion-0 emotion-1 bb-Box"
->
-  Hello world
-</p>
-`;
-
-exports[`composition use should render correctly 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-<p
-  class="emotion-0 emotion-1 bb-Box"
->
-  Hello world
-</p>
-`;
-
-exports[`composition use should render correctly for a Button component with props 1`] = `
-.emotion-1 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-1:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: var(--bb-palette-primary,#000000);
-  border-radius: 6px;
-  box-shadow: 0 1px 3px 0px rgba(0,0,0,0.05);
-  color: var(--bb-palette-primaryInverted,#000000);
-  fill: var(--bb-palette-primaryInverted,#000000);
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  font-weight: 600;
-  min-height: 2.75rem;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0 1rem;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  -webkit-transition: box-shadow 0.1s ease-in-out 0s,border 0.1s,background-color 0.1s;
-  transition: box-shadow 0.1s ease-in-out 0s,border 0.1s,background-color 0.1s;
-}
-
-.emotion-3[disabled],
-.emotion-3[aria-disabled="true"] {
-  cursor: not-allowed;
-  opacity: 0.7;
-  outline: unset;
-  pointer-events: unset;
-}
-
-.emotion-3:focus {
-  outline: unset;
-  z-index: 2;
-  box-shadow: var(--bb-palette-primary,#000000) 0px 0px 0px 1px, var(--bb-palette-primary200,#000000) 0px 0px 0px 3px;
-}
-
-.emotion-3:hover {
-  background-color: var(--bb-palette-primary600,#000000);
-}
-
-.emotion-3:hover:active {
-  background-color: var(--bb-palette-primary700,#000000);
-}
-
-.emotion-3 {
-  background-color: var(--bb-palette-default,#000000);
-  border: 1px solid var(--bb-palette-primary,#000000);
-  color: var(--bb-palette-primary,#000000);
-  fill: var(--bb-palette-primary,#000000);
-  box-shadow: unset;
-}
-
-.emotion-3:hover {
-  border-color: var(--bb-palette-primary,#000000);
-  background-color: var(--bb-palette-primaryTint,#000000);
-}
-
-.emotion-3:hover:active {
-  border-color: var(--bb-palette-primary,#000000);
-  background-color: var(--bb-palette-primary100,#000000);
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: var(--bb-palette-default,#000000);
-  border-radius: 6px;
-  box-shadow: 0 1px 3px 0px rgba(0,0,0,0.05);
-  color: var(--bb-palette-defaultInverted,#000000);
-  fill: var(--bb-palette-defaultInverted,#000000);
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  font-weight: 600;
-  min-height: 2.75rem;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0 1rem;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  -webkit-transition: box-shadow 0.1s ease-in-out 0s,border 0.1s,background-color 0.1s;
-  transition: box-shadow 0.1s ease-in-out 0s,border 0.1s,background-color 0.1s;
-  border: 1px solid var(--bb-palette-white900,#000000);
-}
-
-.emotion-0[disabled],
-.emotion-0[aria-disabled="true"] {
-  cursor: not-allowed;
-  opacity: 0.7;
-  outline: unset;
-  pointer-events: unset;
-}
-
-.emotion-0:focus {
-  outline: unset;
-  z-index: 2;
-  box-shadow: var(--bb-palette-gray200,#000000) 0px 0px 0px 1px, var(--bb-palette-gray100,#000000) 0px 0px 0px 3px;
-  border-color: transparent;
-}
-
-.emotion-0:hover {
-  background-color: var(--bb-palette-white600,#000000);
-}
-
-.emotion-0:hover:active {
-  background-color: var(--bb-palette-white800,#000000);
-}
-
-<button
-  class="emotion-0 emotion-1 emotion-2 emotion-3 bb-Box bb-Button"
-  type="button"
->
-  Hello world
-</button>
-`;
-
-exports[`defaultProps should render correctly 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-<div
-  class="emotion-0 emotion-1 test bb-Box"
->
-  hello world
-</div>
-`;
-
-exports[`modes renders correctly for applyTheme 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  color: var(--bb-palette-red,#ff0000) !important;
-  padding: 1rem !important;
-}
-
-.emotion-1 {
-  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.15),0px 0px 2px 1px rgba(0,0,0,0.02) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`modes renders correctly for applyTheme 2`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  color: var(--bb-palette-red,#ff0000) !important;
-  padding: 1rem !important;
-}
-
-.emotion-1 {
-  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.15),0px 0px 2px 1px rgba(0,0,0,0.02) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`modes should render correctly when colorMode is set globally 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
->
-  hello world
-</div>
-`;
-
-exports[`modes should render correctly when colorMode is set globally 2`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
->
-  hello world
-</div>
-`;
-
-exports[`modes should render correctly when colorMode set as prop 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-0 {
-  background-color: var(--bb-palette-red,#ff0000);
-}
-
-.emotion-1 {
-  color: var(--bb-palette-primaryTint,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
->
-  hello world
-</div>
-`;
-
-exports[`modes should render correctly when colorMode set as prop 2`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-0 {
-  background-color: var(--bb-palette-red,#ff0000);
-}
-
-.emotion-1 {
-  color: var(--bb-palette-primaryTint,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
->
-  hello world
-</div>
-`;
-
-exports[`props should assign a ref 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
->
-  Hello world
-</div>
-`;
+exports[`props should assign a ref 1`] = `null`;
 
 exports[`props should render correctly 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
+{
+  "orderedAppliedStyles": [
+    ".default_gIETRq.default_gIETRq.default_gIETRq.default_gIETRq:focus:not(:focus-visible) {outline: none;}",
+    ".default_kZbibd {box-sizing: border-box;}",
+    ".default_igbtmu {font-size: 100%;}",
+    ".default_cuFLHY {font-family: inherit;}",
+    ".default_iYirce {background-color: unset;}",
+    ".default_eNGppm {border-left-color: unset;}",
+    ".default_bbknPy {border-bottom-color: unset;}",
+    ".default_jVJchN {border-right-color: unset;}",
+    ".default_lisFbu {border-top-color: unset;}",
+    ".default_jzFTvr {padding-left: unset;}",
+    ".default_epixtf {padding-bottom: unset;}",
+    ".default_csXDkM {padding-right: unset;}",
+    ".default_egaguL {padding-top: unset;}",
+    ".default_dyBBE {margin-left: unset;}",
+    ".default_iJXjnk {margin-bottom: unset;}",
+    ".default_gTpzer {margin-right: unset;}",
+    ".default_cRZPMY {margin-top: unset;}"
+  ],
+  "props": {
+    "className": "bb-Box default_cRZPMY default_gTpzer default_iJXjnk default_dyBBE default_egaguL default_csXDkM default_epixtf default_jzFTvr default_lisFbu default_jVJchN default_bbknPy default_eNGppm default_iYirce default_cuFLHY default_igbtmu default_kZbibd default_gIETRq scid-YscHY"
+  },
+  "children": [
+    "test"
+  ]
 }
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for a borderRadius of 0 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  border-radius: 0px !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for a borderRadius of 1 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  border-radius: 2px !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for a borderRadius of 2 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  border-radius: 4px !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for a borderRadius of 3 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  border-radius: 6px !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for a borderRadius of 4 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  border-radius: 8px !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for a borderRadius of 5 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  border-radius: 16px !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for a borderRadius of 6 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  border-radius: 32px !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for a borderRadius of default 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  border-radius: 6px !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for a custom border 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  border: 1px solid var(--bb-palette-white800,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for an alignX of center 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for an alignX of left 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for an alignX of right 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: flex-end;
-  -webkit-box-align: flex-end;
-  -ms-flex-align: flex-end;
-  align-items: flex-end;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for an alignY of bottom 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for an alignY of center 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for an alignY of top 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly for an altitude 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  box-shadow: 0px 6px 24px 0px rgba(0,0,0,0.15),0px 0px 12px 6px rgba(0,0,0,0.02) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
 `;
 
 exports[`props should render correctly with CSS props 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
+{
+  "orderedAppliedStyles": [
+    ".default_cZxIzA {background-color: var(--colors-primary);}",
+    ".default_exNPKM {color: var(--colors-white);}",
+    ".default_gIETRq.default_gIETRq.default_gIETRq.default_gIETRq:focus:not(:focus-visible) {outline: none;}",
+    ".default_kZbibd {box-sizing: border-box;}",
+    ".default_igbtmu {font-size: 100%;}",
+    ".default_cuFLHY {font-family: inherit;}",
+    ".default_eNGppm {border-left-color: unset;}",
+    ".default_bbknPy {border-bottom-color: unset;}",
+    ".default_jVJchN {border-right-color: unset;}",
+    ".default_lisFbu {border-top-color: unset;}",
+    ".default_jzFTvr {padding-left: unset;}",
+    ".default_epixtf {padding-bottom: unset;}",
+    ".default_csXDkM {padding-right: unset;}",
+    ".default_egaguL {padding-top: unset;}",
+    ".default_dyBBE {margin-left: unset;}",
+    ".default_iJXjnk {margin-bottom: unset;}",
+    ".default_gTpzer {margin-right: unset;}",
+    ".default_cRZPMY {margin-top: unset;}"
+  ],
+  "props": {
+    "className": "bb-Box default_exNPKM default_cZxIzA default_cRZPMY default_gTpzer default_iJXjnk default_dyBBE default_egaguL default_csXDkM default_epixtf default_jzFTvr default_lisFbu default_jVJchN default_bbknPy default_eNGppm default_cuFLHY default_igbtmu default_kZbibd default_gIETRq scid-YscHY"
+  },
+  "children": [
+    "test"
+  ]
 }
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  background-color: var(--bb-palette-red,#ff0000) !important;
-  color: var(--bb-palette-white,#ffffff) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with CSS props with active 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1:active {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with CSS props with breakpoints 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-@media screen and (min-width:0px) and (max-width:479px) {
-  .emotion-1 {
-    background-color: var(--bb-palette-secondary,#000000) !important;
-  }
-}
-
-@media screen and (min-width:768px) and (max-width:1023px) {
-  .emotion-1 {
-    background-color: var(--bb-palette-red,#ff0000) !important;
-  }
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with CSS props with breakpoints 2`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-@media screen and (max-width:767px) {
-  .emotion-1 {
-    background-color: var(--bb-palette-secondary,#000000) !important;
-  }
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with CSS props with breakpoints 3`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-@media screen and (min-width:768px) {
-  .emotion-1 {
-    background-color: var(--bb-palette-secondary,#000000) !important;
-  }
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with CSS props with disabled 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1:disabled {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<button
-  class="emotion-0 emotion-1 bb-Box"
-  disabled=""
-/>
-`;
-
-exports[`props should render correctly with CSS props with focus 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1:focus {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with CSS props with group active 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-[role=group]:active .emotion-1 {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-3 bb-Box"
-  role="group"
->
-  <div
-    class="emotion-0 emotion-1 bb-Box"
-  />
-</div>
-`;
-
-exports[`props should render correctly with CSS props with group disabled 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-[role=group]:disabled .emotion-1 {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<button
-  class="emotion-0 emotion-3 bb-Box"
-  disabled=""
-  role="group"
->
-  <div
-    class="emotion-0 emotion-1 bb-Box"
-  />
-</button>
-`;
-
-exports[`props should render correctly with CSS props with group focus 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-[role=group]:focus .emotion-1 {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-3 bb-Box"
-  role="group"
->
-  <div
-    class="emotion-0 emotion-1 bb-Box"
-  />
-</div>
-`;
-
-exports[`props should render correctly with CSS props with group hover 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-[role=group]:hover .emotion-1 {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-3 bb-Box"
-  role="group"
->
-  <div
-    class="emotion-0 emotion-1 bb-Box"
-  />
-</div>
-`;
-
-exports[`props should render correctly with CSS props with group hover 2`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-[role=group]:hover .emotion-1 {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-3 bb-Box"
-  role="group"
->
-  <div
-    class="emotion-0 emotion-1 bb-Box"
-  />
-</div>
-`;
-
-exports[`props should render correctly with CSS props with group visited 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-[role=group]:visited .emotion-1 {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-3 bb-Box"
-  role="group"
->
-  <div
-    class="emotion-0 emotion-1 bb-Box"
-  />
-</div>
-`;
-
-exports[`props should render correctly with CSS props with hover 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1:hover {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with CSS props with hoveractive 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1:hover:active {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with CSS props with visited 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1:visited {
-  background-color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
 `;
 
 exports[`props should render correctly with a color CSS prop 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
+{
+  "orderedAppliedStyles": [
+    ".default_grWJqm {background-color: var(--colors-white900);}",
+    ".default_gknCVb {color: var(--colors-primary);}",
+    ".default_gIETRq.default_gIETRq.default_gIETRq.default_gIETRq:focus:not(:focus-visible) {outline: none;}",
+    ".default_kZbibd {box-sizing: border-box;}",
+    ".default_igbtmu {font-size: 100%;}",
+    ".default_cuFLHY {font-family: inherit;}",
+    ".default_eNGppm {border-left-color: unset;}",
+    ".default_bbknPy {border-bottom-color: unset;}",
+    ".default_jVJchN {border-right-color: unset;}",
+    ".default_lisFbu {border-top-color: unset;}",
+    ".default_jzFTvr {padding-left: unset;}",
+    ".default_epixtf {padding-bottom: unset;}",
+    ".default_csXDkM {padding-right: unset;}",
+    ".default_egaguL {padding-top: unset;}",
+    ".default_dyBBE {margin-left: unset;}",
+    ".default_iJXjnk {margin-bottom: unset;}",
+    ".default_gTpzer {margin-right: unset;}",
+    ".default_cRZPMY {margin-top: unset;}"
+  ],
+  "props": {
+    "className": "bb-Box default_gknCVb default_grWJqm default_cRZPMY default_gTpzer default_iJXjnk default_dyBBE default_egaguL default_csXDkM default_epixtf default_jzFTvr default_lisFbu default_jVJchN default_bbknPy default_eNGppm default_cuFLHY default_igbtmu default_kZbibd default_gIETRq scid-YscHY"
+  },
+  "children": [
+    "test"
+  ]
 }
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  background-color: var(--bb-palette-white900,#000000) !important;
-  color: var(--bb-palette-primary,#000000) !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with a font CSS prop 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with a font size CSS prop 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  font-size: 1.5rem !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with a font weight CSS prop 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  font-weight: 600 !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
 `;
 
 exports[`props should render correctly with a fontFamily CSS prop 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
+{
+  "orderedAppliedStyles": [
+    ".default_hJryVf {font-family: var(--fonts-default);}",
+    ".default_gIETRq.default_gIETRq.default_gIETRq.default_gIETRq:focus:not(:focus-visible) {outline: none;}",
+    ".default_kZbibd {box-sizing: border-box;}",
+    ".default_igbtmu {font-size: 100%;}",
+    ".default_iYirce {background-color: unset;}",
+    ".default_eNGppm {border-left-color: unset;}",
+    ".default_bbknPy {border-bottom-color: unset;}",
+    ".default_jVJchN {border-right-color: unset;}",
+    ".default_lisFbu {border-top-color: unset;}",
+    ".default_jzFTvr {padding-left: unset;}",
+    ".default_epixtf {padding-bottom: unset;}",
+    ".default_csXDkM {padding-right: unset;}",
+    ".default_egaguL {padding-top: unset;}",
+    ".default_dyBBE {margin-left: unset;}",
+    ".default_iJXjnk {margin-bottom: unset;}",
+    ".default_gTpzer {margin-right: unset;}",
+    ".default_cRZPMY {margin-top: unset;}"
+  ],
+  "props": {
+    "className": "bb-Box default_hJryVf default_cRZPMY default_gTpzer default_iJXjnk default_dyBBE default_egaguL default_csXDkM default_epixtf default_jzFTvr default_lisFbu default_jVJchN default_bbknPy default_eNGppm default_iYirce default_igbtmu default_kZbibd default_gIETRq scid-YscHY"
+  },
+  "children": [
+    "test"
+  ]
 }
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with a spacing CSS prop (marginX, paddingX) 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  margin-left: 2rem !important;
-  margin-right: 2rem !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`props should render correctly with a spacing CSS prop (marginY, paddingY) 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
 `;
 
 exports[`props should render correctly with a spacing CSS prop 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
+{
+  "orderedAppliedStyles": [
+    ".default_bwxhwK {margin-top: var(--space-major-4);}",
+    ".default_jxfoXZ {margin-right: var(--space-major-4);}",
+    ".default_bsuQWO {margin-bottom: var(--space-major-4);}",
+    ".default_faoYoe {margin-left: var(--space-major-4);}",
+    ".default_bWySrH {padding-left: var(--space-major-2);}",
+    ".default_gIETRq.default_gIETRq.default_gIETRq.default_gIETRq:focus:not(:focus-visible) {outline: none;}",
+    ".default_kZbibd {box-sizing: border-box;}",
+    ".default_igbtmu {font-size: 100%;}",
+    ".default_cuFLHY {font-family: inherit;}",
+    ".default_iYirce {background-color: unset;}",
+    ".default_eNGppm {border-left-color: unset;}",
+    ".default_bbknPy {border-bottom-color: unset;}",
+    ".default_jVJchN {border-right-color: unset;}",
+    ".default_lisFbu {border-top-color: unset;}",
+    ".default_epixtf {padding-bottom: unset;}",
+    ".default_csXDkM {padding-right: unset;}",
+    ".default_egaguL {padding-top: unset;}"
+  ],
+  "props": {
+    "className": "bb-Box default_bWySrH default_faoYoe default_bsuQWO default_jxfoXZ default_bwxhwK default_egaguL default_csXDkM default_epixtf default_lisFbu default_jVJchN default_bbknPy default_eNGppm default_iYirce default_cuFLHY default_igbtmu default_kZbibd default_gIETRq scid-YscHY"
+  },
+  "children": [
+    "test"
+  ]
 }
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  margin: 2rem !important;
-  padding-left: 1rem !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
 `;
 
 exports[`props should render correctly with a spacing CSS prop 2`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
+{
+  "orderedAppliedStyles": [
+    ".default_dPRgeQ {margin-top: var(--space-xl);}",
+    ".default_djJQJv {margin-right: var(--space-xl);}",
+    ".default_ewrMhs {margin-bottom: var(--space-xl);}",
+    ".default_LBNxo {margin-left: var(--space-xl);}",
+    ".default_gIETRq.default_gIETRq.default_gIETRq.default_gIETRq:focus:not(:focus-visible) {outline: none;}",
+    ".default_kZbibd {box-sizing: border-box;}",
+    ".default_igbtmu {font-size: 100%;}",
+    ".default_cuFLHY {font-family: inherit;}",
+    ".default_iYirce {background-color: unset;}",
+    ".default_eNGppm {border-left-color: unset;}",
+    ".default_bbknPy {border-bottom-color: unset;}",
+    ".default_jVJchN {border-right-color: unset;}",
+    ".default_lisFbu {border-top-color: unset;}",
+    ".default_jzFTvr {padding-left: unset;}",
+    ".default_epixtf {padding-bottom: unset;}",
+    ".default_csXDkM {padding-right: unset;}",
+    ".default_egaguL {padding-top: unset;}"
+  ],
+  "props": {
+    "className": "bb-Box default_LBNxo default_ewrMhs default_djJQJv default_dPRgeQ default_egaguL default_csXDkM default_epixtf default_jzFTvr default_lisFbu default_jVJchN default_bbknPy default_eNGppm default_iYirce default_cuFLHY default_igbtmu default_kZbibd default_gIETRq scid-YscHY"
+  },
+  "children": [
+    "test"
+  ]
 }
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-1 {
-  margin: 4rem !important;
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
 `;
 
 exports[`props should render correctly with aria* props 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
+{
+  "orderedAppliedStyles": [
+    ".default_gIETRq.default_gIETRq.default_gIETRq.default_gIETRq:focus:not(:focus-visible) {outline: none;}",
+    ".default_kZbibd {box-sizing: border-box;}",
+    ".default_igbtmu {font-size: 100%;}",
+    ".default_cuFLHY {font-family: inherit;}",
+    ".default_iYirce {background-color: unset;}",
+    ".default_eNGppm {border-left-color: unset;}",
+    ".default_bbknPy {border-bottom-color: unset;}",
+    ".default_jVJchN {border-right-color: unset;}",
+    ".default_lisFbu {border-top-color: unset;}",
+    ".default_jzFTvr {padding-left: unset;}",
+    ".default_epixtf {padding-bottom: unset;}",
+    ".default_csXDkM {padding-right: unset;}",
+    ".default_egaguL {padding-top: unset;}",
+    ".default_dyBBE {margin-left: unset;}",
+    ".default_iJXjnk {margin-bottom: unset;}",
+    ".default_gTpzer {margin-right: unset;}",
+    ".default_cRZPMY {margin-top: unset;}"
+  ],
+  "props": {
+    "aria-label": "hello",
+    "className": "bb-Box default_cRZPMY default_gTpzer default_iJXjnk default_dyBBE default_egaguL default_csXDkM default_epixtf default_jzFTvr default_lisFbu default_jVJchN default_bbknPy default_eNGppm default_iYirce default_cuFLHY default_igbtmu default_kZbibd default_gIETRq scid-YscHY"
+  },
+  "children": [
+    "test"
+  ]
 }
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-<div
-  aria-label="hello"
-  class="emotion-0 emotion-1 bb-Box"
-/>
 `;
 
-exports[`props should render correctly with overrides 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
+exports[`props should render correctly with the \`css\` prop 1`] = `
+{
+  "orderedAppliedStyles": [
+    ".default_cZxIzA {background-color: var(--colors-primary);}",
+    ".default_exNPKM {color: var(--colors-white);}",
+    ".default_gIETRq.default_gIETRq.default_gIETRq.default_gIETRq:focus:not(:focus-visible) {outline: none;}",
+    ".default_kZbibd {box-sizing: border-box;}",
+    ".default_igbtmu {font-size: 100%;}",
+    ".default_cuFLHY {font-family: inherit;}",
+    ".default_eNGppm {border-left-color: unset;}",
+    ".default_bbknPy {border-bottom-color: unset;}",
+    ".default_jVJchN {border-right-color: unset;}",
+    ".default_lisFbu {border-top-color: unset;}",
+    ".default_jzFTvr {padding-left: unset;}",
+    ".default_epixtf {padding-bottom: unset;}",
+    ".default_csXDkM {padding-right: unset;}",
+    ".default_egaguL {padding-top: unset;}",
+    ".default_dyBBE {margin-left: unset;}",
+    ".default_iJXjnk {margin-bottom: unset;}",
+    ".default_gTpzer {margin-right: unset;}",
+    ".default_cRZPMY {margin-top: unset;}"
+  ],
+  "props": {
+    "className": "bb-Box default_exNPKM default_cZxIzA default_cRZPMY default_gTpzer default_iJXjnk default_dyBBE default_egaguL default_csXDkM default_epixtf default_jzFTvr default_lisFbu default_jVJchN default_bbknPy default_eNGppm default_cuFLHY default_igbtmu default_kZbibd default_gIETRq scid-YscHY"
+  },
+  "children": [
+    "test"
+  ]
 }
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-0 {
-  background-color: var(--bb-palette-red,#ff0000);
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
-/>
-`;
-
-exports[`theming Box.base should render correctly 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-0 {
-  background-color: var(--bb-palette-red,#ff0000);
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
->
-  hello world
-</div>
-`;
-
-exports[`theming Box.base should render correctly 2`] = `
-.emotion-1 {
-  color: var(--bb-palette-green,#008000) !important;
-}
-
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-0 {
-  background-color: var(--bb-palette-green,#008000);
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
->
-  hello world
-</div>
-`;
-
-exports[`variants styles.base should render correctly 1`] = `
-.emotion-0 {
-  margin: unset;
-  padding: unset;
-  border: unset;
-  background: unset;
-  font: unset;
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-.emotion-0:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.emotion-0 {
-  background-color: var(--bb-palette-red,#ff0000);
-}
-
-<div
-  class="emotion-0 emotion-1 bb-Box"
->
-  hello world
-</div>
 `;

@@ -17,6 +17,7 @@ export * from './mergeRefs';
 export * from './omit';
 export * from './parseIcons';
 export * from './palette';
+export * from './space';
 export * from './theme';
 export * from './times';
 export * from './uniqueId';

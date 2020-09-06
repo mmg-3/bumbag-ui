@@ -3,3 +3,4 @@ export { flush, hydrate, cx, getRegisteredStyles, injectGlobal, sheet, cache, cs
 export { css, keyframes, Global, ThemeContext, CacheProvider } from '@emotion/core';
 export { withTheme, ThemeProvider } from 'emotion-theming';
 export { default as styled } from '@emotion/styled';
+export * from './stitches';

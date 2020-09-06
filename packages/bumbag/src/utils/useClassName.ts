@@ -43,3 +43,18 @@ export function useClassName({
   const uniqueClassNames = _uniq(classNames.split(' ')).join(' ');
   return uniqueClassNames;
 }
+
+export function tempV2_useClassName({
+  prevClassName,
+  themeKey,
+  themeKeySuffix,
+}: {
+  prevClassName?: string;
+  themeKey?: string;
+  themeKeySuffix?: string;
+}) {
+  let newThemeKey = `${themeKey || ''}${themeKeySuffix ? `.${themeKeySuffix}` : ''}`;
+  const classNames = buildClassNames(prevClassName, newThemeKey ? `bb-${newThemeKey.replace(/\./g, '')}` : undefined);
+  const uniqueClassNames = _uniq(classNames.split(' ')).join(' ');
+  return uniqueClassNames;
+}
